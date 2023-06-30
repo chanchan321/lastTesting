@@ -20,7 +20,7 @@ app.get('/',(req, res)=> {
 
 console.log('2'+new Date())
 
-cron.schedule("01 45 18 * * *", function(){
+cron.schedule("01 15 19 * * *", function(){
     console.log('2sssssssssssssssssssssssssss')
      setcaw()
     
